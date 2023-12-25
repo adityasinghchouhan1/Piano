@@ -1,0 +1,251 @@
+.mainbody {
+    position: relative;
+    height: 620px;
+    width: 1335px;
+    background-color: rgb(15, 1, 1);
+    box-shadow: 3px 4px 4px 2px black;
+    left: 10px;
+
+}
+
+.bord-div {
+    background-color: goldenrod;
+    position: relative;
+    top: 240px;
+    height: 360px;
+    width: 750px;
+    left: 300px;
+    border: 1px solid black;
+}
+
+
+.key-wh {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 6px;
+    left: 58px;
+}
+
+.key-bk {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 45px;
+    left: 135px;
+}
+
+.keyb1 {
+    height: 200px;
+    width: 60px;
+    background-color: black;
+    box-shadow: 8px 10px rgba(0, 0, 0, 0.445);
+}
+
+.pia{
+    height: 300px;
+    width: 100px;
+    background-color: white;
+    box-shadow: 2px 10px rgba(0, 0, 0, 0.445);
+}
+
+
+
+.key2 {
+    font-size: 20px;
+}
+.key3 {
+    font-size: 20px;
+}
+.key4 {
+    font-size: 20px;
+}
+.key5{
+    font-size: 20px;
+}
+.key6 {
+    font-size: 20px;
+}
+
+.lable{
+position: absolute;
+top: 30px;
+color: #ffd700;
+font-family: 'Dancing Script', cursive;
+font-size: 80px;
+left: 470px;
+}
+
+.animation-div{
+    font-size: 30px;
+position: absolute;
+left: 1180px;
+top: 10px;
+}
+
+.animation-div2{
+    font-size: 30px;
+position: absolute;
+top: 10px;
+left: 120px;
+}
+
+.music-animation{
+position: absolute;
+animation-name: music;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes music{
+0%{top: 490px;
+color: gold;}
+100%{top: 0px;
+color: rgba(255, 217, 0, 0.055);
+}}
+
+.music-animation2{
+position: absolute;
+animation-name: music2;
+animation-duration: 5.5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes music2{
+0%{top: 490px;
+size: 20px; 
+left: 5px;
+color: gold;}
+100%{top: 0px;
+color: rgba(255, 217, 0, 0.055);
+size: 30px;
+left: 20px;
+}}
+
+.music-animation3{
+position: absolute;
+animation-name: music3;
+animation-duration: 5.8s;
+animation-iteration-count: infinite;
+}
+
+@keyframes music3{
+0%{top: 490px;
+size: 20px; 
+left: 5px;
+color: gold;}
+100%{top: 0px;
+color: rgba(255, 217, 0, 0.055);
+size: 30px;
+left: 30px;
+}}
+
+.music-animation4{
+position: absolute;
+animation-name: music4;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+@keyframes music4{
+0%{top: 490px;
+size: 20px; 
+right: 5px;
+color: gold;}
+100%{top: 0px;
+color: rgba(255, 217, 0, 0.055);
+size: 30px;
+right: 30px;
+}}
+
+.music-animation5{
+position: absolute;
+animation-name: music5;
+animation-duration: 6.5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes music5{
+0%{top: 490px;
+size: 20px; 
+right: 5px;
+color: gold;}
+100%{top: 0px;
+color: rgba(255, 217, 0, 0.055);
+size: 30px;
+right: 23px;
+}}
+
+.music-animation6{
+position: absolute;
+animation-name: music6;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+}
+
+@keyframes music6{
+0%{top: 490px;
+right: 5px;
+color: gold;}
+100%{top: 0px;
+color: rgba(255, 217, 0, 0.055);
+right: 15px;
+}}
+
+.music-animation7{
+    position: absolute;
+    animation-name: music7;
+    animation-duration: 6.8s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes music7{
+    0%{top: 490px;
+    left: 1px;
+    color: gold;}
+    100%{top: 0px;
+    color: rgba(255, 217, 0, 0.055);
+    left: 9px;
+    }}
+
+
+    .music-animation8{
+        position: absolute;
+        animation-name: music8;
+        animation-duration: 7.3s;
+        animation-iteration-count: infinite;
+        }
+        
+        @keyframes music8{
+        0%{top: 490px;
+        left: 2px;
+        color: gold;}
+        100%{top: 0px;
+        color: rgba(255, 217, 0, 0.055);
+        left: 10px;
+        }}
+
+        .pia{
+background-color: white;
+        }
+
+.specker1{
+    position: absolute;
+    top: 490px;
+    width: 100px;
+    left:-30px ;
+}
+
+.specker2{
+    position: absolute;
+    top: 490px;
+    width: 100px;
+    left: -30px;
+
+}
+
+.btnpress{
+    box-shadow: 0px 20px 10px 0 rgba(0, 0, 0, 0.329);
+    opacity: 0.2;
+
+}
